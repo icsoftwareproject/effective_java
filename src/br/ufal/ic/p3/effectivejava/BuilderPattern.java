@@ -40,7 +40,7 @@ public class BuilderPattern {
 
         String s1 = new String("My little string.");
 
-        String s2 = "My little string."
+        String s2 = "My little string.";
 
         BuilderPattern pattern = new Builder(12, 87).opt1(1).opt3(9).build();
     }
